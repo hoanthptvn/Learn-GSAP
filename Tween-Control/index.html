@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <title>Document</title>
+    <style>
+      .main {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+      }
+      .nav {
+        padding: 2em;
+      }
+      button {
+        margin-right: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <img
+        src="https://image.flaticon.com/icons/svg/2991/2991360.svg"
+        alt=""
+        width="130"
+        class="fred green"
+      />
+    </div>
+    <nav class="nav">
+      <button type="button" class="btn btn-warning" id="play">play</button>
+      <button type="button" class="btn btn-warning" id="pause">pause</button>
+      <button type="button" class="btn btn-warning" id="reverse">
+        reverse
+      </button>
+      <button type="button" class="btn btn-warning" id="restart">
+        restart
+      </button>
+    </nav>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+  <script src="main.js"></script>
+</html>
